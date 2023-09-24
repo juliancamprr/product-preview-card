@@ -96,4 +96,8 @@ body {
     padding: 1em;
     border-radius: 6px;
     font-weight: bold;
+    transition: background .2s;
+}
+.purchase-perfume a:hover {
+    background: #1A4031;
 }
