@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  background: #F3EAE3;
+}
+.container {
+  display: flex;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.image-perfume img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.content-perfume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20em;
+  background: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.title-perfume,
+.author-perfume,
+.description-perfume,
+.info-purchase-perfume,
+.purchase-perfume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+}
+.title-perfume {
+    font-family: 'Montserrat';
+    letter-spacing: 10px;
+    font-size: 10px;
+    margin-top: 2em;
+    color: #9293A0;
+    text-transform: uppercase;
+}
+.author-perfume {
+    font-family: 'Fraunces';
+    margin-top: 1em;
+    font-size: 24px;
+}
+.description-perfume {
+    margin-top: 1em;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #999BA4;
+}
+.info-purchase-perfume {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #3A856A;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Fraunces';
+}
+.value {
+    font-size: 36px;
+}
+.value-ant {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+.purchase-perfume {
+    margin-top: 2em;
+}
+.purchase-perfume a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: white;
+    gap: 0.5em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #3D8168;
+    padding: 1em;
+    border-radius: 6px;
+    font-weight: bold;
+}
